@@ -21,4 +21,4 @@ jobs:
               cml comment create report.md || echo "cml comment failed"
           else
               echo "model_results.png not found"
-          fi
+          fi 
