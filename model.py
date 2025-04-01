@@ -43,7 +43,7 @@ def mse(y_test, y_pred):
 
 
 # Check Tensorflow version
-print(tf._version_)
+print(tf.__version__)
 
 
 # Create features
