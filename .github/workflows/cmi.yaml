@@ -11,7 +11,7 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.Jo_21 }}
         run: |
-          pip install -r requirements.txt
+          pip install -r requirements.txt 
           python model.py
 
           cat metrics.txt >> report.md
